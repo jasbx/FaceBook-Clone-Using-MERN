@@ -1,0 +1,83 @@
+.header{
+    display:flex;
+
+    padding:15px 20px;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+.herder-left{
+display: flex;
+justify-content: space-evenly;
+}
+.herder-left >.img{
+  height:40px;
+
+}
+.header-input{
+ display: flex;
+ align-items: center;
+ background-color: #eff2f5;
+ padding: 10px;
+ margin-left: 10px;
+ border-radius: 30px;
+}
+.header-input >input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+.header-center{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.header-option {
+    display: flex;
+    align-items: center;
+padding: 0 30px;
+cursor: pointer;
+}
+.header-option:hover{
+    background-color: #eff2fc;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+
+.header-option>.MuiSvgIcon-root{
+    color: gray;
+}
+.header-option-active>.MuiSvgIcon-root{
+    color: #2eB1f4;
+}
+
+.header-option-active{
+    border-bottom: 3px solid #2eB1f4;
+}
+.header-option>.MuiSvgIcon-root:hover{
+    color: #2eB1f4;
+   
+}
+
+.headerInfo{
+    display: flex;
+    align-items: center;
+}
+.headerInfo >h4{
+    margin-left: 10px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-around;
+}
+.header-right >.MuiSvgIcon-root{
+    color: gray;
+}
