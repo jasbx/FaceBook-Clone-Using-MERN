@@ -3,7 +3,7 @@ import  cors from 'cors'
 import bodyParser from "body-parser"
 import mongoose from "mongoose"
 import Post from './model/Data.js'
-const mongoUrl="mongodb+srv://gloop216:t6OwXxDJu1KR9YA3@cluster0.nryicsp.mongodb.net/Facebook?retryWrites=true&w=majority&appName=Cluster0"
+const mongoUrl=""
 mongoose.connect(mongoUrl)
 
 
